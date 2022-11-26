@@ -31,12 +31,19 @@
 .logo{
     /* border: 2px solid red; */
     width: 50%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    /* align-items: center;
+    justify-content: center; */
     display: flex ;
     flex-direction: column;
-    color: #1877F2
+    color: #1877F2;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.logo-name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
 }
 .form{
     /* border: 2px solid blue; */
@@ -53,15 +60,15 @@
 }
 .form-container{
     /* border: 2px solid rgb(246, 243, 243); */
-    margin-top: 27%;
-    margin-left: 18%;
+    margin-top: 23%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
     background-color: white;
     padding: 20px;
     width: 60%;
     height: 60%;
-    border-radius: 5px;
+    border-radius: 8px;
     -webkit-box-shadow: -5px 6px 19px -6px rgba(222,185,222,1);
     -moz-box-shadow: -5px 6px 19px -6px rgba(222,185,222,1);
     box-shadow: -5px 6px 19px -6px rgba(222,185,222,1);
@@ -78,10 +85,42 @@ input{
     border: none;
     height: 40px;
     border-radius: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     color: black;
 }
 .forget{
     text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+.page{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.page span{
+    font-weight: bold;
+}
+.page span a{
+    text-decoration: none;
+    color: black;
+}
+.green-button{
+    background-color: rgb(42, 230, 42);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
 }
